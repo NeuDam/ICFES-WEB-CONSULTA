@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  background-color: #181818;
+  color: white;
+  opacity: 1;
+  background-image: radial-gradient(#8f4cfc57 2px, #181818 2px);
+  background-size: 40px 40px;
+}
+
+.container-buttons{
+  width: 20%;
+  margin-inline: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container-buttons .button{
+  width: 50%;
+  height: 40px;
+  margin-top: 30px;
+  border: none;
+  background-color: #00000067;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.selectedButon{
+  background-color: #8f4cfc57 !important;
+}
+
+.main-section-layout{
+  margin-bottom: 6em;
+}
+
+form{
+  margin-top: 5em;
+  margin-inline: auto;
+  width: 25%;
+  padding: 16px;
+  border-radius: 20px   ;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column ;
+}
+
+form h1{
+  margin: 0;
+  text-align: center;
+  margin: 10px 0;
+}
+
+form label{
+  margin-bottom: .5em ;
+}
+
+form input{
+  margin-bottom: 1em;
+  border: none;
+  background-color: #333;
+  padding: 8px 5px;
+  border-radius: 6px;
+  outline: none;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+form button{
+  margin-top: 15px;
+  background-color: rgba(123, 0, 255, 0.729);
+  padding: 8px 5px;
+  border: none;
+  font-size: medium;
+  border-radius: 8px ;
+  color: white;
+  cursor: pointer;
+}
+
+.main-data{
+  margin-inline: auto;
+  margin-top: 6em;
+  /* background-color: #09f; */
+  width: 55%;
+}
+
+summary{
+  margin-bottom: 20px;
+}
+
+.main-data h2{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.container-examen{
+  background-color: #333333c6;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.registro{
+  font-weight: bold;
+  font-size: large;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-top-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.main-top-header section{
+  width: 50%;
+  text-align: center;
+  & span{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    color: greenyellow  ;
+  }
+}
+
+.pic-profile{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #8f4cfc57;
+}
+
+.motivational-message{
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-style: italic;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.main-bottom-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.card{
+  width: 230px;
+  height: 130px;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+  h5{
+    margin: 0;
+  }
+}
+
+.name-materia{
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+.code-materia{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.puntaje-materia-text{
+  font-size: .7em !important;
+  margin-left: 5px;
+}
+
+.card.ingles{
+  background-color: rgba(255, 0, 0, 0.12);
+}
+
+.card.math{
+  background-color: rgba(0, 153, 255, 0.12);
+}
+
+.card.soc{
+  background-color: rgba(255, 85, 0, 0.12);
+}
+
+.card.cie{
+  background-color: rgba(0, 155, 0, 0.12);
+}
+
+.card.lec{
+  background-color: rgba(78, 0, 155, 0.12);
+}
+
+@media screen and (max-width:767px) {
+  form{
+    width: 85%;
+  }
+
+  .container-buttons{
+    width: 65%;
+  }
+  .main-data{
+    width: 90%;
+  }
+
+  .main-top-header{
+    flex-direction: column;
+  }
+
+  .main-top-header section{
+    width: 100%;
+  }
+
+  .card{
+    width: 45%;
+  }
+
+  .name-materia{
+    font-size: .7em;
+  }
+
+  .main-top-header section span{
+    font-size: 2.5em;
+  }
+}
