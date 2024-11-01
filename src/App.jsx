@@ -7,11 +7,12 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    console.log(young)
     const [year, month, day] = e.target[1].value.split("-");
     const fechaTransformada = `${day}/${month}/${year}`;
     axios.post("https://icfes-server.vercel.app/consulta", {
       document: e.target[0].value,
-      young: true,
+      young: young,
       born: fechaTransformada
     }).then((response) => {
       if (response.data.status === false){
@@ -27,6 +28,7 @@ function App() {
   }
   const [numDocument, setNumDocument] = useState(0)
   const [mainData, setMainData] = useState(null)
+  const [young, setYoung] = useState(true)
 
   return (
    <Layout>
@@ -36,6 +38,13 @@ function App() {
         <input type="number" required/>
         <label htmlFor="fechaNacimiento">Fecha nacimiento</label>
         <input type="date" max={"2010-01-01"} required/>
+        <label htmlFor="young">Tipo de documento</label>
+        <select name="young" id="young" onChange={(e) => {
+          setYoung(e.target.value === "TI" ? true: false)
+        }}>
+          <option selected value={"TI"}>TI</option>
+          <option value={"CC"}>CC</option>
+        </select>
         <button type="submit">Consultar</button>
       </form>
       <div className="main-data">

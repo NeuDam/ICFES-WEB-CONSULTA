@@ -244,3 +244,11 @@ summary{
     font-size: 2.5em;
   }
 }
+
+#young{
+  padding:5px 3px;
+  border-radius: 5px;
+  background-color: #333;
+  outline: none;
+  color: white;
+}
