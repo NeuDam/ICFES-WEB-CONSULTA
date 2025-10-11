@@ -1,6 +1,7 @@
 import axios from "axios";
 import Layout from "./components/Layout";
 import Loading from "./components/Loading";
+import Footer from "./components/Footer";
 import SEO from "./components/SEO";
 import { useState } from "react";
 import { HiDocumentText, HiCalendar, HiIdentification, HiSearch, HiCheckCircle, HiXCircle, HiChartBar, HiChatAlt2 } from "react-icons/hi";
@@ -133,6 +134,8 @@ function App() {
           </>
         )}
       </div>
+
+      <Footer />
     </Layout>
   )
 }
