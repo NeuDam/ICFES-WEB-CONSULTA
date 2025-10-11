@@ -1,0 +1,21 @@
+# robots.txt para ICFES Consultas
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://icfes-consultas.vercel.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Bots específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

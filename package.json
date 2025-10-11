@@ -1,18 +1,42 @@
 {
-  "name": "icfes-web",
-  "private": true,
-  "version": "0.0.0",
+  "name": "icfes-web-consulta",
+  "private": false,
+  "version": "2.0.0",
   "type": "module",
+  "description": "Aplicación web moderna para consultar resultados del examen ICFES Saber 11 en Colombia",
+  "keywords": [
+    "icfes",
+    "saber-11",
+    "consulta",
+    "resultados",
+    "colombia",
+    "educacion",
+    "examen"
+  ],
+  "author": {
+    "name": "ICFES Consultas",
+    "url": "https://icfes-consultas.vercel.app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeuDam/ICFES-WEB-CONSULTA"
+  },
+  "bugs": {
+    "url": "https://github.com/NeuDam/ICFES-WEB-CONSULTA/issues"
+  },
+  "homepage": "https://icfes-consultas.vercel.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "analyze": "vite build --mode analyze"
   },
   "dependencies": {
     "axios": "^1.7.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^6.26.1"
   },
   "devDependencies": {

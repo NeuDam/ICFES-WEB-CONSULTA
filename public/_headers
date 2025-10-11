@@ -1,0 +1,38 @@
+# Headers para seguridad y SEO en Vercel/Netlify
+
+/*
+  # Security Headers
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  
+  # Cache Control
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/manifest.json
+  Cache-Control: public, max-age=86400
+
+/*.js
+  Content-Type: application/javascript; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.css
+  Content-Type: text/css; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.png
+  Content-Type: image/png
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.jpg
+  Content-Type: image/jpeg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.svg
+  Content-Type: image/svg+xml
+  Cache-Control: public, max-age=31536000, immutable

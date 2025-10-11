@@ -1,0 +1,32 @@
+{
+  "name": "ICFES Consultas",
+  "short_name": "ICFES",
+  "description": "Consulta tus resultados del examen ICFES Saber 11 de forma rápida y segura",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0c29",
+  "theme_color": "#8f4cfc",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "utilities"
+  ],
+  "lang": "es-CO",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
