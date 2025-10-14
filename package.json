@@ -3,15 +3,20 @@
   "private": false,
   "version": "2.0.0",
   "type": "module",
-  "description": "Aplicación web moderna para consultar resultados del examen ICFES Saber 11 en Colombia",
+  "description": "Consultar ICFES Saber 11: Ver resultados, puntaje y calificaciones del examen ICFES. Consulta rápida y segura.",
   "keywords": [
-    "icfes",
-    "saber-11",
-    "consulta",
-    "resultados",
-    "colombia",
-    "educacion",
-    "examen"
+    "consultar-icfes",
+    "ver-puntaje-icfes",
+    "resultados-icfes",
+    "consulta-saber-11",
+    "puntaje-saber-11",
+    "ver-resultados-icfes",
+    "como-consultar-icfes",
+    "icfes-colombia",
+    "examen-icfes",
+    "calificaciones-icfes",
+    "resultados-saber-11",
+    "icfes-online"
   ],
   "author": {
     "name": "ICFES Consultas",

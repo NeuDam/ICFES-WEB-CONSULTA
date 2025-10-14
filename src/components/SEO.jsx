@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 
 const SEO = ({
-  title = "ICFES Consultas | Resultados Saber 11 2025",
-  description = "Consulta tus resultados del examen ICFES Saber 11 de forma rápida, segura y gratuita.",
-  keywords = "icfes, consulta icfes, resultados icfes, saber 11, pruebas saber",
+  title = "Consultar ICFES | Ver Resultados y Puntaje Saber 11 2025",
+  description = "Consultar ICFES Saber 11: Ver resultados, puntaje y calificaciones del examen ICFES. Consulta rápida y segura.",
+  keywords = "consultar icfes, ver puntaje icfes, resultados icfes, ver resultados icfes, consulta saber 11, puntaje saber 11, ver mi puntaje icfes, como consultar icfes",
   ogImage = "/og-image.png",
   url = "https://icfes-consultas.vercel.app/"
 }) => {

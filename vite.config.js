@@ -37,10 +37,6 @@ export default defineConfig({
   assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.svg', '**/*.gif'],
   
   // Configuración del servidor de desarrollo
-  server: {
-    port: 3000,
-    open: true
-  },
   
   // Preview server
   preview: {

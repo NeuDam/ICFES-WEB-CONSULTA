@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom"
+import AnimatedBackground from "./AnimatedBackground"
 
 /* eslint-disable react/prop-types */
-function Layout({children}) {
+function Layout({ children }) {
 
   const currentPath = useLocation().pathname
 
@@ -9,6 +10,7 @@ function Layout({children}) {
 
   return (
     <main>
+      <AnimatedBackground />
       <div className="container-buttons">
         <Link to={'/notificame'}>
           <button className={`button ${currentPath !== "/" ? "selectedButon" : ""}`}>Notificame</button>

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo consultar los resultados del ICFES?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para consultar los resultados del ICFES Saber 11, ingresa tu número de documento, fecha de nacimiento y tipo de documento (TI o CC) en el formulario de consulta. Los resultados se mostrarán de forma inmediata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo ver mi puntaje del ICFES?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Puedes ver tu puntaje del ICFES ingresando tu información personal en nuestra plataforma de consulta. Verás tu puntaje global y los puntajes por cada materia (Matemáticas, Lectura Crítica, Ciencias, Sociales e Inglés)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito registrarme para consultar los resultados del ICFES?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, la consulta de resultados del ICFES Saber 11 no requiere ningún registro. Solo ingresa tu documento y fecha de nacimiento para ver tus resultados."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué necesito para consultar mis resultados del Saber 11?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para consultar tus resultados del Saber 11 necesitas: tu número de documento de identidad, tu fecha de nacimiento y seleccionar el tipo de documento (Tarjeta de Identidad o Cédula de Ciudadanía)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuándo salen los resultados del ICFES 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los resultados del ICFES Saber 11 2025 se publican generalmente entre 4 a 8 semanas después de presentar el examen. Puedes consultar los resultados en esta plataforma en cuanto estén disponibles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo ver los resultados de exámenes anteriores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, puedes consultar resultados de exámenes ICFES anteriores utilizando tu número de documento. El sistema mostrará todos los exámenes que hayas presentado."
+      }
+    }
+  ]
+}
