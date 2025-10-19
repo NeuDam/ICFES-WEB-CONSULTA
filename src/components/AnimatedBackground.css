@@ -13,39 +13,30 @@
   position: absolute;
   border-radius: 50%;
   background: radial-gradient(circle at 30% 30%,
-      rgba(143, 76, 252, 0.6) 0%,
-      rgba(76, 144, 252, 0.4) 40%,
-      rgba(143, 76, 252, 0.2) 70%,
+      rgba(143, 76, 252, 0.28) 0%,
+      rgba(83, 52, 131, 0.18) 40%,
+      rgba(76, 144, 252, 0.10) 70%,
       transparent 100%);
   filter: blur(40px);
-  animation: floatAround 20s ease-in-out infinite;
+  animation: floatAround 25s ease-in-out infinite;
   will-change: transform;
-  box-shadow:
-    0 0 60px rgba(143, 76, 252, 0.4),
-    0 0 120px rgba(76, 144, 252, 0.3);
 }
 
 .floating-circle:nth-child(even) {
   background: radial-gradient(circle at 70% 70%,
-      rgba(76, 144, 252, 0.6) 0%,
-      rgba(143, 76, 252, 0.4) 40%,
-      rgba(76, 144, 252, 0.2) 70%,
+      rgba(76, 144, 252, 0.28) 0%,
+      rgba(15, 52, 96, 0.18) 40%,
+      rgba(143, 76, 252, 0.10) 70%,
       transparent 100%);
   animation-direction: reverse;
-  box-shadow:
-    0 0 60px rgba(76, 144, 252, 0.4),
-    0 0 120px rgba(143, 76, 252, 0.3);
 }
 
 .floating-circle:nth-child(3n) {
   background: radial-gradient(circle at 50% 50%,
-      rgba(255, 0, 255, 0.5) 0%,
-      rgba(143, 76, 252, 0.3) 50%,
-      rgba(76, 144, 252, 0.2) 70%,
+      rgba(100, 100, 180, 0.25) 0%,
+      rgba(83, 52, 131, 0.16) 50%,
+      rgba(76, 144, 252, 0.08) 70%,
       transparent 100%);
-  box-shadow:
-    0 0 60px rgba(255, 0, 255, 0.3),
-    0 0 120px rgba(143, 76, 252, 0.2);
 }
 
 @keyframes floatAround {
@@ -53,22 +44,22 @@
   0%,
   100% {
     transform: translate(0, 0) scale(1);
-    opacity: 0.6;
+    opacity: 0.4;
   }
 
   25% {
-    transform: translate(80px, -60px) scale(1.2);
-    opacity: 0.8;
+    transform: translate(60px, -50px) scale(1.15);
+    opacity: 0.6;
   }
 
   50% {
-    transform: translate(20px, -100px) scale(0.8);
-    opacity: 0.5;
+    transform: translate(10px, -80px) scale(0.9);
+    opacity: 0.3;
   }
 
   75% {
-    transform: translate(-60px, -40px) scale(1.1);
-    opacity: 0.7;
+    transform: translate(-50px, -30px) scale(1.05);
+    opacity: 0.5;
   }
 }
 

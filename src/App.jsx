@@ -117,7 +117,9 @@ function App() {
           <HiDocumentText className="label-icon" /> Número de documento
         </label>
         <input
-          type="number"
+          type="tel"
+          inputMode="numeric"
+          pattern="[0-9]*"
           required
           placeholder="Ingresa tu número de documento"
         />
